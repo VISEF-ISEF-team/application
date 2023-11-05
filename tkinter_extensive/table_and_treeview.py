@@ -1,8 +1,9 @@
 import tkinter as tk
-from tkinter import ttk
+# from tkinter import ttk
 from random import choice
+import ttkbootstrap as ttk
 
-app = tk.Tk()
+app = ttk.Window(themename='darkly')
 app.geometry('600x400')
 
 # list
