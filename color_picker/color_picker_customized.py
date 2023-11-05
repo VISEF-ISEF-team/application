@@ -5,7 +5,6 @@ from tkinter.constants import HORIZONTAL, RAISED, SUNKEN
 from tkinter import Canvas
 from CTkColorPicker import *
 
-val = ''
 
 class Colorpicker:
     def __init__(self, root):
